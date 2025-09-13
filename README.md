@@ -2,14 +2,14 @@
 
 The "Dogs vs. Cats" dataset has its roots in the Asirra project (Animal Species Image Recognition for Restricting Access), originally developed by Microsoft Research as a CAPTCHA system. Asirra challenged users to distinguish cats from dogs in photographs, a task that is trivial for humans but historically difficult for computers. Through a partnership with Petfinder.com, over three million manually classified cat and dog images were collected, providing one of the earliest large-scale image datasets for machine learning. This legacy evolved into the modern "Dogs vs. Cats" dataset, which is now a popular benchmark for image classification tasks, particularly for training Convolutional Neural Networks (CNNs). In practice, models are often trained on subsets of the data (in this case: 3,750 cats and 3,750 dogs) drawn from the larger dataset of 17,500 images (8,750 cats and 8,750 dogs). These models utilize a combination of tools to learn visual features, evaluate and visualize predictions, and display final accuracy results (with performance analytics measured using Confusion Matrix and AUC/ROC Scores).
 
-This project makes great use of the following Python libraries & Machine Learning franeworks to accurately pinpoint whether an image is a cat or a dog:
+The following Python libraries & Machine Learning franeworks were employed to accurately pinpoint whether an image is a cat or a dog:
 
 ### Open-Source Libraries
  - #### **NumPy** (for numerical array-based data preprocessing)  
  - #### **Matplotlib, Seaborn & PIL** (for displaying images and making the model’s performance visually-interpretable, not just numerically)
  - #### **Scikit-Learn** (for evaluate model predictions and quantify accuracy)
 
-### Proprietary Machine Learning Libraries 
+### Proprietary Machine Learning Frameworks 
  - #### **TensorFlow/Keras** (for loading, preprocessing, resizing images into the correct CNN input format for model architecture modeling)
  - #### **VGG-16** (pre-trained, deep CNN model - for feature extraction and transfer learning) 
 
