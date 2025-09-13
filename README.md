@@ -4,15 +4,15 @@ The "Dogs vs. Cats" dataset has its roots in the Asirra project (Animal Species 
 
 This project makes great use of the following Python libraries & Machine Learning franeworks to accurately pinpoint whether an image is a cat or a dog:
 
- - #### **NumPy** (for data preprocessing) 
- - #### **Scikit-Learn** (for evaluate model predictions and quantify accuracy) 
+###Python Libs
+ - #### **NumPy** (for data preprocessing)  
  - #### **Matplotlib, Seaborn & PIL** (for displaying images and making the model’s performance visually-interpretable, not just numerically)
-
+###Machine Learning Libs 
+ - #### **Scikit-Learn** (for evaluate model predictions and quantify accuracy)
  - #### **TensorFlow/Keras** (for loading, preprocessing, resizing images into the correct CNN input format for model architecture modeling)
  - #### **VGG-16** (pre-trained, deep CNN model - for feature extraction and transfer learning) 
 
-## NumPy
-Short for Numerical Python, NumPy is an open-source Python library essential for large-scale numerical computing. It is written in low-level languages like C and provides powerful multi-dimensional array objects ("ndarrays") that enable an efficient storage and manipulation of large datasets. NumPy has a rich collection of higher mathematical functions for dataset tasks that utilize linear algebra, Fourier transforms, and statistical analysis; it is a cornerstone tool in scientific computing, data science, and machine learning. Its library arrays are stored in contiguous memory locations for fast computation and support vectorized operations, broadcasting, and advanced indexing to simplify code and enhance performance.
+## 
 
 
 ## TensorFlow/Keras
