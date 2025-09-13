@@ -1,8 +1,13 @@
 # Dogs vs Cats 
 
-The "Dogs vs. Cats" dataset is a popular benchmark for image classification tasks, particularly for learning Convolutional Neural Networks (CNNs). It involves training a model to distinguish between images of dogs and cats, often using a subset (3,750 cats and 3,7500 dogs) of a larger dataset. The larger dataset contains 17,500 images (8,750 cats and 8,750 dogs). Ultimately, creating a function or dataset that has an image name (or an image) that recognizes if image is cat or dog. 
+The "Dogs vs. Cats" dataset is a popular benchmark for image classification tasks, particularly for learning Convolutional Neural Networks (CNNs). It involves training a model to distinguish between images of dogs and cats, often using a subset (in this case: 3,750 cats and 3,750 dogs) of a larger dataset. The larger dataset contains 17,500 images (8,750 cats and 8,750 dogs). Ultimately, creating a function or dataset that has an image name (or an image) that recognizes if image is cat or dog. 
 
-This project makes use of NumPy for data preprocessing, TensorFlow/Keras for model architecture modeling, and VGG-16 as a pre-trained deep CNN model for feature extraction and transfer learning. Accuracy is measured via AUC/ROC Scores and Confusion Matrix
+This project makes use of 
+ - ### **NumPy** (for data preprocessing) 
+ - ### **TensorFlow/Keras** (for model architecture modeling)
+ - ### **VGG-16** (pre-trained deep CNN model - for feature extraction and transfer learning) 
+
+Accuracy is measured via AUC/ROC Scores and Confusion Matrix 
 
 ## The Asirra data set
 Web services are often protected with a challenge that's supposed to be easy for people to solve, but difficult for computers. Such a challenge is often called a CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) or HIP (Human Interactive Proof). HIPs are used for many purposes, such as to reduce email and blog spam and prevent brute-force attacks on web site passwords.
@@ -17,6 +22,12 @@ While random guessing is the easiest form of attack, various forms of image reco
 ## State of the art
 The current literature suggests machine classifiers can score above 80% accuracy on this task. Therfore, Asirra is no longer considered safe from attack.  This project benchmarks the latest computer vision and deep learning approaches to this problem.
 
+## VGG-16 Architecture & Mammalian Visual Cortex
+VGG (Visual Geometry Group) modules and the mammalian visual cortex share similarities in their hierarchical processing of visual information. Both systems process visual data through multiple layers, progressively extracting more complex features as the signal moves deeper. Early layers in VGG resemble simple processing stages similar to those in the primary visual cortex (V1), which respond to basic features like edges and textures. Higher layers in VGG correspond to more abstract and complex feature representations akin to higher visual cortical areas, which integrate and interpret more detailed aspects of visual stimuli.
+
+Studies comparing VGG16 with the mouse visual cortex show that the intermediate layers of VGG correspond roughly to mid-level visual processing in the brain, indicating the representations are higher-order than simple edge detection. Also, unlike the strictly hierarchical feedforward nature of VGG, the mammalian visual cortex may exhibit a more parallel and broader organization beyond early visual areas.
+
+In essence, VGG networks are designed inspired by and functionally analogous to the mammalian visual cortex, with layered feature hierarchies mirroring the brain's progression from simple to complex visual processing stages.
 
 ### Acknowledgements
 
