@@ -27,7 +27,7 @@ Essentially, VGG networks are designed inspired by and functionally analogous to
 
 ### Acknowledgements
 
- - Special thanks to Professor Zia Khan & Frank Fletcher for their mentorship and code reviews. Thanks to the Microsoft Research team for providing the photographic data. The conceptual inspiration derives from the following publication:
+ - Special thanks to Professors Zia Khan & Frank Fletcher for their mentorship and code reviews. Thanks to the Microsoft Research team for providing the photographic data. The conceptual inspiration derives from the following publication:
 
    Jeremy Elson, John R. Douceur, Jon Howell, Jared Saul, Asirra: A CAPTCHA that Exploits Interest-Aligned Manual Image Categorization, in Proceedings of 14th ACM Conference on Computer and Communications Security (CCS), Association for Computing Machinery, Inc., Oct. 2007.
 
