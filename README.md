@@ -34,6 +34,6 @@ VGG networks are designed, inspired by, and functionally analogous to the mammal
 
 ### Citations
 
- - Shi, J. et al. (2022) MouseNet: A biologically constrained convolutional neural network model for the Mouse Visual Cortex, PLoS computational biology. Available at: [Link Text](https://pubmed.ncbi.nlm.nih.gov/36067234/)
+ - Shi, J. et al. (2022) MouseNet: A biologically constrained convolutional neural network model for the Mouse Visual Cortex, PLoS computational biology. Available at: [(https://pubmed.ncbi.nlm.nih.gov/36067234/)]
 (Accessed: 13 May 2025). 
  - Jeremy Elson, John R. Douceur, Jon Howell, Jared Saul, Asirra: A CAPTCHA that Exploits Interest-Aligned Manual Image Categorization, in Proceedings of 14th ACM Conference on Computer and Communications Security (CCS), Association for Computing Machinery, Inc., Oct. 2007.
