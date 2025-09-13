@@ -31,4 +31,4 @@ Essentially, VGG networks are designed inspired by and functionally analogous to
 
    Jeremy Elson, John R. Douceur, Jon Howell, Jared Saul, Asirra: A CAPTCHA that Exploits Interest-Aligned Manual Image Categorization, in Proceedings of 14th ACM Conference on Computer and Communications Security (CCS), Association for Computing Machinery, Inc., Oct. 2007.
 
- - Thanks also to the LearningFuze and the open source community for continuous support and helpful discussions.
+ - Additional thanks to LearningFuze and the open source community for continuous support and helpful discussions.
