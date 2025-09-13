@@ -5,7 +5,7 @@ The "Dogs vs. Cats" dataset has its roots in the Asirra project (Animal Species 
 This project makes great use of the following Python libraries & Machine Learning franeworks to accurately pinpoint whether an image is a cat or a dog:
 
 ### Open-Source Libraries
- - #### **NumPy** (for data preprocessing)  
+ - #### **NumPy** (for numerical array-based data preprocessing)  
  - #### **Matplotlib, Seaborn & PIL** (for displaying images and making the model’s performance visually-interpretable, not just numerically)
  - #### **Scikit-Learn** (for evaluate model predictions and quantify accuracy)
 
