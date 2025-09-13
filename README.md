@@ -13,6 +13,7 @@ This project makes great use of the following Python libraries & Machine Learnin
  - #### **TensorFlow/Keras** (for loading, preprocessing, resizing images into the correct CNN input format for model architecture modeling)
  - #### **VGG-16** (pre-trained, deep CNN model - for feature extraction and transfer learning) 
 
+
 ## TensorFlow/Keras
 Developed by Google, TensorFlow is a comprehensive open-source platform for machine learning, while Keras is its high-level API designed to simplify the building and training of neural networks. Developed by a French software engineer: (François Chollet), Keras has an intuitive, user-friendly interface to define deep learning models, making it easier to experiment quickly and develop complex architectures. It is fully integrated into TensorFlow as "tf.keras", allowing users to seamlessly leverage TensorFlow’s scalability and performance features. Essentially, TensorFlow serves as the powerful engine underneath, while Keras acts as a high-level API that reduces complexity and enhances productivity in model development.
 
