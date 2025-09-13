@@ -5,7 +5,7 @@ The "Dogs vs. Cats" dataset is a popular benchmark for image classification task
 This project makes use of the following Python libraries & Machine Learning tools: 
  - #### **NumPy** (for data preprocessing) 
  - #### **Scikit-Learn** (for evaluate model predictions and quantify accuracy) 
- - #### **Matplotlib, Seaborn & PIL** (for displaying dataset images and making the model’s performance visually-interpretable, not just numerically)
+ - #### **Matplotlib, Seaborn & PIL** (for displaying images and making the model’s performance visually-interpretable, not just numerically)
 
  - #### **TensorFlow/Keras** (for Loading, preprocessing, resizing images into the correct CNN input format for model architecture modeling)
  - #### **VGG-16** (pre-trained, deep CNN model - for feature extraction and transfer learning) 
