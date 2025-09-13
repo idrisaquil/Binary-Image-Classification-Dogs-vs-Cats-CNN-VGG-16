@@ -1,6 +1,6 @@
 # Dogs vs Cats 
 
-The "Dogs vs. Cats" dataset is a popular benchmark for image classification tasks, particularly for learning Convolutional Neural Networks (CNNs). It involves training a model to distinguish between images of dogs and cats, often using a subset (in this case: 3,750 cats and 3,750 dogs) of a larger dataset. The larger dataset contains 17,500 images (8,750 cats and 8,750 dogs). Ultimately, this model utilizes a combination of tools to learn features from cat/dog images in the dataset, evaluate and visualize predictions, and display results. Model accuracy is measured via AUC/ROC Scores and Confusion Matrix.
+The "Dogs vs. Cats" dataset is a popular benchmark for image classification tasks, particularly for learning Convolutional Neural Networks (CNNs). It involves training a model to distinguish between images of dogs and cats, often using a subset (in this case: 3,750 cats and 3,750 dogs) of a larger dataset. The larger dataset contains 17,500 images (8,750 cats and 8,750 dogs). Ultimately, this model utilizes a combination of tools to learn features from cat/dog images in the dataset, as well as evaluate, visualize predictions, and display final accuracy results. Model accuracy is measured via Confusion Matrix and AUC/ROC Scores.
 
 This project makes use of the following Python libraries & Machine Learning franeworks to accurately ascertain whether an image is a cat or a dog:
 
@@ -34,5 +34,6 @@ VGG networks are designed, inspired by, and functionally analogous to the mammal
 
 ### Citations
 
- - Shi, J. et al. (2022) MouseNet: A biologically constrained convolutional neural network model for the Mouse Visual Cortex, PLoS computational biology. Available at: https://pubmed.ncbi.nlm.nih.gov/36067234/ (Accessed: 13 May 2025). 
+ - Shi, J. et al. (2022) MouseNet: A biologically constrained convolutional neural network model for the Mouse Visual Cortex, PLoS computational biology. Available at: [Link Text](https://pubmed.ncbi.nlm.nih.gov/36067234/)
+(Accessed: 13 May 2025). 
  - Jeremy Elson, John R. Douceur, Jon Howell, Jared Saul, Asirra: A CAPTCHA that Exploits Interest-Aligned Manual Image Categorization, in Proceedings of 14th ACM Conference on Computer and Communications Security (CCS), Association for Computing Machinery, Inc., Oct. 2007.
