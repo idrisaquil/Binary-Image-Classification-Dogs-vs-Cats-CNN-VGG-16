@@ -3,9 +3,9 @@
 The "Dogs vs. Cats" dataset is a popular benchmark for image classification tasks, particularly for learning Convolutional Neural Networks (CNNs). It involves training a model to distinguish between images of dogs and cats, often using a subset (in this case: 3,750 cats and 3,750 dogs) of a larger dataset. The larger dataset contains 17,500 images (8,750 cats and 8,750 dogs). Ultimately, creating a function or dataset that has an image name (or an image) that recognizes if image is cat or dog. 
 
 This project makes use of 
- - ### **NumPy** (for data preprocessing) 
- - ### **TensorFlow/Keras** (for model architecture modeling)
- - ### **VGG-16** (pre-trained deep CNN model - for feature extraction and transfer learning) 
+ - #### **NumPy** (for data preprocessing) 
+ - #### **TensorFlow/Keras** (for model architecture modeling)
+ - #### **VGG-16** (pre-trained, deep CNN model - for feature extraction and transfer learning) 
 
 Accuracy is measured via AUC/ROC Scores and Confusion Matrix 
 
