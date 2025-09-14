@@ -8,18 +8,17 @@ This legacy evolved into the modern "Dogs vs. Cats" dataset, which is now a popu
 
 The following Python libraries & Machine Learning franeworks were employed to accurately differentiate whether an image is a cat or a dog:
 
-### Open-Source Libraries
+ - #### **Pandas** (for 
  - #### **NumPy** (for numerical array-based data preprocessing)  
  - #### **Matplotlib, Seaborn & PIL** (for displaying images and making the model’s performance visually-interpretable, not just numerically)
  - #### **Scikit-Learn** (for evaluate model predictions and quantify accuracy)
-
-### Proprietary Machine Learning Frameworks 
- - #### **TensorFlow/Keras** (for loading, preprocessing, resizing images into the correct CNN input format for model architecture modeling)
+ - #### **Keras** (for easier graphical representation of TensorFlow) 
+ - #### **TensorFlow** (for loading, preprocessing, resizing images into the correct CNN input format for model architecture modeling)
  - #### **VGG-16** (pre-trained, deep CNN model - for feature extraction and transfer learning) 
 
 
 ## TensorFlow/Keras
-Developed by Google, TensorFlow is a comprehensive open-source platform for machine learning, while Keras is its high-level API designed to simplify the building and training of neural networks. Developed by a French software engineer: (François Chollet), Keras has an intuitive, user-friendly interface to define deep learning models, making it easier to experiment quickly and develop complex architectures. It is fully integrated into TensorFlow as "tf.keras", allowing users to seamlessly leverage TensorFlow’s scalability and performance features. Essentially, TensorFlow serves as the powerful engine underneath, while Keras acts as a high-level API that reduces complexity and enhances productivity in model development.
+Developed by Google, TensorFlow is a comprehensive open-source platform for machine learning (primarily written in C++), while Keras is its high-level API designed to simplify the building and training of neural networks. Developed by a French software engineer: (François Chollet), Keras was written in Python and displays an intuitive, user-friendly interface to define deep learning models, making it easier to experiment quickly and develop complex architectures. It is fully integrated into TensorFlow as "tf.keras", allowing users to seamlessly leverage TensorFlow’s scalability and performance features. Essentially, TensorFlow serves as the powerful engine underneath, while Keras acts as a high-level API that reduces complexity and enhances productivity during model development.
 
 ## VGG-16 
 VGG-16 is a deep convolutional neural network architecture developed by the Visual Geometry Group at the University of Oxford, consisting of 16 layers (including 13 convolutional layers and 3 fully-connected layers). The machine learning tools commonly used in implementing VGG-16 include TensorFlow and Keras, which provide the underlying framework for building and training the convolutional neural network models. VGG-16 uses small 3x3 convolutional filters stacked sequentially, with max-pooling layers for downsampling, and employs ReLU activation functions throughout. Designed for image classification, it takes 224x224 RGB images as input and outputs probabilities across 1,000 classes (achieving around 92.7% top-5 accuracy on the ImageNet dataset). Renowned for its simplicity, uniform architecture, and effectiveness, VGG-16 is widely used for deep learning applications and transfer learning.
