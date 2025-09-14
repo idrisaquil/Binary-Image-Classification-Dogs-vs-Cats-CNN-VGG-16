@@ -11,10 +11,10 @@ The following Python libraries & Machine Learning franeworks were employed to ac
  - #### **Pandas** (for 
  - #### **NumPy** (for numerical array-based data preprocessing)  
  - #### **Matplotlib, Seaborn & PIL** (for displaying images and making the model’s performance visually-interpretable, not just numerically)
- - #### **Scikit-Learn** (for evaluate model predictions and quantify accuracy)
+ - #### **Scikit-Learn** (for evaluating model predictions and quantify accuracy)
  - #### **Keras** (for easier graphical representation of TensorFlow) 
  - #### **TensorFlow** (for loading, preprocessing, resizing images into the correct CNN input format for model architecture modeling)
- - #### **VGG-16** (pre-trained, deep CNN model - for feature extraction and transfer learning) 
+ - #### **VGG-16** (pre-trained, deep CNN model - for "feature extraction" and "transfer learning" purposes) 
 
 
 ## TensorFlow/Keras
